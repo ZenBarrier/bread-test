@@ -1,12 +1,6 @@
 from flask import Flask, request, send_from_directory, jsonify
 from settings import BREAD_SECRET
 
-""" try:
-    import os
-    mongo_uri = os.environ['MONGODB_URI']
-except:
-    from secrets import mongo_uri """
-
 application = Flask(__name__, static_folder="static")
 
 
