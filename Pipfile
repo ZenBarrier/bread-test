@@ -9,3 +9,4 @@ pylint = "*"
 [packages]
 gunicorn = '*'
 flask = '*'
+python-dotenv = '*'
