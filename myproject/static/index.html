@@ -1,15 +1,28 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-    </head>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="breadButton.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://checkout-sandbox.getbread.com/bread.js" data-api-key="7101ea30-8ae3-47ab-a8bd-235860d36f3e"></script>
+    <script src="myScript.js"></script>
+</head>
 
 <body>
 
-        <div id="app">
-                {{ message }}
-        </div>
+    <div id="bread-checkout-btn" data-bread-default-size="true"></div>
 
-        <script src="/myscript.js"></script>
+
+
+    <form id="bread-checkout-form" action="/confirm" method="POST">
+        <div id="bread-checkout-btn" data-bread-default-size="true"></div>
+        <script>
+
+
+        </script>
+    </form>
+
 </body>
+
 </html>
